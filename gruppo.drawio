@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Pagina-1" id="yLrTl6MxJXmca0YOcKSl">
+    <mxGraphModel dx="1955" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;Un’agenzia artistica conserva nei propri archivi informazioni riguardanti gruppi musicali.&lt;/div&gt;&lt;div&gt;Di ciascun &lt;b&gt;gruppo&lt;/b&gt;, identificato da un &lt;u&gt;codice&lt;/u&gt;, interessa il nome e l’anno di fondazione.&lt;/div&gt;&lt;div&gt;Un gruppo ha pubblicato &lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;degli &lt;/font&gt;&lt;b&gt;album&lt;/b&gt;, dei quali interessa il titolo e l’anno di uscita; ogni album è identificati&lt;/div&gt;&lt;div&gt;da un &lt;u&gt;codice&lt;/u&gt;, ed è realizzato da un &lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;solo &lt;/font&gt;&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;gruppo&lt;/font&gt;.&lt;/div&gt;&lt;div&gt;Un gruppo ha partecipato a &lt;b&gt;concerti&lt;/b&gt;, anch’essi identificati da un &lt;u&gt;codice&lt;/u&gt;, e dei quali interessa il nome, il&lt;/div&gt;&lt;div&gt;luogo, la data; ad un concerto possono partecipare &lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;più &lt;/font&gt;&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt;gruppi&lt;/font&gt;, e per ciascun concerto interessa quante&lt;/div&gt;&lt;div&gt;canzoni ha cantato ciascun gruppo.&lt;/div&gt;&lt;div&gt;Anche i &lt;b&gt;componenti &lt;/b&gt;di un gruppo sono identificati da un &lt;u&gt;codice&lt;/u&gt;; di essi interessa il nome, la nazionalità e&lt;/div&gt;&lt;div&gt;l’anno di nascita; alcuni sono &lt;b&gt;&lt;font style=&quot;color: rgb(102, 102, 102);&quot;&gt;strumentisti&lt;/font&gt;&lt;/b&gt;, in tal caso interessa lo strumento preferito; altri sono &lt;font style=&quot;color: rgb(102, 102, 102);&quot;&gt;&lt;b&gt;cantanti&lt;/b&gt;&lt;/font&gt;, in&lt;/div&gt;&lt;div&gt;tal caso interessano le canzoni che hanno inciso nel corso della loro carriera. (gerarchia)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="590" x="280" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-6" edge="1" parent="1" source="jufeQy_zDKF2IxAp9iGt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" target="jufeQy_zDKF2IxAp9iGt-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-11" edge="1" parent="1" source="jufeQy_zDKF2IxAp9iGt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" target="jufeQy_zDKF2IxAp9iGt-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GRUPPO" vertex="1">
+          <mxGeometry height="60" width="120" x="524" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-8" edge="1" parent="1" source="jufeQy_zDKF2IxAp9iGt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" target="jufeQy_zDKF2IxAp9iGt-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="PUBBLICA" vertex="1">
+          <mxGeometry height="80" width="80" x="744" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-7" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="ALBUM" vertex="1">
+          <mxGeometry height="60" width="120" x="884" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-14" edge="1" parent="1" source="jufeQy_zDKF2IxAp9iGt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" target="jufeQy_zDKF2IxAp9iGt-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="PARTECIPA" vertex="1">
+          <mxGeometry height="80" width="80" x="544" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-13" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="CONCERTO" vertex="1">
+          <mxGeometry height="60" width="120" x="524" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-16" edge="1" parent="1" source="jufeQy_zDKF2IxAp9iGt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" target="jufeQy_zDKF2IxAp9iGt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-18" edge="1" parent="1" source="jufeQy_zDKF2IxAp9iGt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" target="jufeQy_zDKF2IxAp9iGt-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="FORMATO" vertex="1">
+          <mxGeometry height="80" width="80" x="340" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-17" parent="1" style="whiteSpace=wrap;html=1;" value="COMPONENTE" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-19" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;" value="" vertex="1">
+          <mxGeometry height="60" width="80" x="70" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CANTANTE" vertex="1">
+          <mxGeometry height="60" width="120" x="-130" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-24" parent="1" style="whiteSpace=wrap;html=1;" value="STRUMENTISTA" vertex="1">
+          <mxGeometry height="60" width="120" x="-130" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-26" edge="1" parent="1" source="jufeQy_zDKF2IxAp9iGt-24" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="jufeQy_zDKF2IxAp9iGt-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="160" />
+            </Array>
+            <mxPoint x="250" y="220" as="sourcePoint" />
+            <mxPoint x="300" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-27" edge="1" parent="1" source="jufeQy_zDKF2IxAp9iGt-22" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="jufeQy_zDKF2IxAp9iGt-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="390" />
+            </Array>
+            <mxPoint x="250" y="220" as="sourcePoint" />
+            <mxPoint x="300" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-28" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="P.NE" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-29" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="*Ho scelto una gerarchia &lt;b&gt;parziale &lt;/b&gt;perché potrebbero esserci altri performer (i.e.ballerini) come membri di un gruppo e &lt;b&gt;non esclusiva &lt;/b&gt;perché uno strumentista potrebbe essere anche cantante (i.e. Edoardo Bennato)" vertex="1">
+          <mxGeometry height="100" width="180" x="-150" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-30" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="1,N" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-31" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="1,N" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-32" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="1,N" vertex="1">
+          <mxGeometry height="30" width="60" x="670" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-33" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;0,N&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="50" x="630" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-34" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;0,N&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="50" x="620" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-35" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;0,1&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="50" x="834" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-36" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;u&gt;Codice_gruppo&lt;/u&gt;&lt;/b&gt;&lt;div&gt;Nome&lt;/div&gt;&lt;div&gt;Anno_fondazione&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-37" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;u&gt;Codice_album&lt;/u&gt;&lt;/b&gt;&lt;div&gt;Titolo&lt;/div&gt;&lt;div&gt;Anno di uscita&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="106" x="891" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-39" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;u&gt;Codice_Concerto&lt;/u&gt;&lt;/b&gt;&lt;div&gt;Nome&lt;/div&gt;&lt;div&gt;Luogo&lt;/div&gt;&lt;div&gt;Data&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="126" x="530" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-40" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="*Nella cardinalità da gruppo&amp;nbsp; a album avrei scritto O,N, ma la dicitura &quot;un gruppo ha pubblicato degli album&quot;, mi fa immaginare che un gruppo per essere considerato ha pubblicato degli album: per questo ho optato per 1,N" vertex="1">
+          <mxGeometry height="30" width="200" x="660" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-41" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;*Nella cardinalità da album a gruppo ho scelto 0,1 perché nel testo è esplicitmente detto che un album è realizzato da un solo gruppo (quindi cardinalità max è di certo 1). Più complicato è stato scegliere la minima perché dipende da quando si considera nato un album (solo quando è stato pubblicato oppure anche quando è in elaborazione?).Essendo un&#39;agenzia artistica magari è interessata ad album creati dai propri artisti ma non ancora pubblicati&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="1060" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-43" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;*Nella cardinalità da componente a gruppo&amp;nbsp; ho optato per 1,N perché ci vuole almeno una persona che decida di creare un gruppo; al contrario un gruppo deve essere formato almeno da una persona&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="180" x="320" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-44" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;* Ero indecisa se aggiungere Luogo e data come attributi della relazione, alla fine ho deciso di aggiungerlo in un secondo momento nello schema logico; visto che è una relazione tra cardinalità max N e N&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="204" x="757" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-45" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;*Nella cardinalità da concerto a gruppo ho optato per 0,N perché ho pensato che ci possa essere interesse da parte dell&#39;agenzia a segnare concerti che non si sono ancora svolti e ,quindi, di cui non si ha ancora una lista dei gruppi partecipanti&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="310" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-48" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="N° canzoni" vertex="1">
+          <mxGeometry height="30" width="80" x="620" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-50" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="SCHEMA LOGICO:&amp;nbsp;&lt;div&gt;GRUPPO(&lt;u style=&quot;font-weight: bold;&quot;&gt;Codice_gruppo, &lt;/u&gt;Nome, anno_fondazione)&lt;/div&gt;&lt;div&gt;COMPONENTE (&lt;b&gt;&lt;u&gt;Codice_componente&lt;/u&gt;&lt;/b&gt;, Nome, Nazionalità, anno di nascita)&lt;/div&gt;&lt;div&gt;STRUMENTISTA(&lt;b&gt;&lt;u&gt;Codice_componente&lt;/u&gt;&lt;/b&gt;, strumento preferito)&lt;/div&gt;&lt;div&gt;FK (&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_componente&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)-&amp;gt; COMPONENTE (&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_componente)&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CANTANTE(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;Codice_componente,&lt;/b&gt;canzoni incise&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;FK (&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&lt;u&gt;Codice_componente&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;)-&amp;gt; COMPONENTE (&lt;/span&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&lt;u&gt;Codice_componente)&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;CONCERTO (&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_Concerto,&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Nome,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Luogo,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Data&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ALBUM(&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_Concerto,&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Nome,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Luogo,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Data,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Codice_gruppo&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;FK (&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_gruppo&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)-&amp;gt; GRUPPO (&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_gruppo)&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;PARTECIPA (&lt;b&gt;&lt;u&gt;Codice_concerto&lt;/u&gt;&lt;/b&gt;, &lt;b&gt;&lt;u&gt;Codice_gruppo&lt;/u&gt;&lt;/b&gt;, N° canzoni,data)&lt;/div&gt;&lt;div&gt;FK (&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_concerto&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)-&amp;gt;CONCERTO (&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_concerto&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FK (&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_gruppo&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)-&amp;gt; GRUPPO (&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_gruppo&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FORMATO (&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_componente,&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_gruppo,&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;anno di nascita&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FK (&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_componente&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)-&amp;gt; COMPONENTE (&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_componente&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FK(&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_gruppo&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)-&amp;gt; GRUPPO(&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Codice_gruppo&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="620" x="-40" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-52" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;u&gt;Codice_componente&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Nome&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Nazionalità&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="155" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-53" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Strumento preferito" vertex="1">
+          <mxGeometry height="30" width="60" x="-210" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-54" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Canzoni incise" vertex="1">
+          <mxGeometry height="30" width="60" x="-210" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="jufeQy_zDKF2IxAp9iGt-56" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;span style=&quot;text-align: left;&quot;&gt;anno di nascita&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="335" y="345" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
